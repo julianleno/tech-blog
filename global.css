@@ -1,0 +1,25 @@
+html{
+    --blue: rgb(0, 162, 255);
+    --green: #159957;
+    --white: #f3f3f3;
+    --grey: #838383;
+    font-size: 62.5%;
+  }
+  
+body {
+    font-size: 1.6rem;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+    background: var(--white);
+  }
+
+  .sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+  }
