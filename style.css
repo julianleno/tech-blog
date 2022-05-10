@@ -1,0 +1,16 @@
+div.main{
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 0 auto;
+}
+header.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+div.post-wrapper{
+  display: flex;
+  flex-direction: column;  
+}
