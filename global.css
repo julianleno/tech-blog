@@ -2,7 +2,8 @@ html{
     --blue: rgb(0, 162, 255);
     --green: #159957;
     --white: #f3f3f3;
-    --grey: #838383;
+    --gray: #838383;
+    --light-gray: #d3d3d3;
     font-size: 62.5%;
   }
   
@@ -22,4 +23,11 @@ body {
     clip: rect(0, 0, 0, 0);
     white-space: nowrap;
     border-width: 0;
+  }
+
+  #more1,
+  #more2,
+  #more3,
+  #more4{
+      display: none;
   }

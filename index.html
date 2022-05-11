@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="icon" type="image/x-icon" href="/imgs/favicon.ico">
+    <link rel="icon" href="imgs/favicon.svg" type="image/x-icon"/>
+    <link rel="shortcut icon" href="imgs/favicon.svg" type="image/x-icon"/>
 
     <link rel="stylesheet" type="text/css" href="reset.css" />
     <link rel="stylesheet" type="text/css" href="global.css" />
@@ -34,19 +35,22 @@
           <h2 class="post-title">Soldados Ucranianos dão a mão a pequeno refugiado</h2>
           
           <time datetime="2022-05-12 08:00-03:00" class="posteddata">Postado em 02 de março de 2022</time>
-          
+          <div id="post-tag" class="post-tag">
+            <p>Curiosidades</p>     
+          </div>
           <img class="post-image" src="imgs/imagem1.png" />
             <p class="postcontent">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
-              semper diam metus, eget commodo arcu condimentum non. Proin eu metus
+              semper diam metus, eget commodo arcu condimentum non.<span id="dots1">..</span><span id="more1"> Proin eu metus
               at dui lacinia rhoncus in sit amet ipsum. Aenean risus mauris,
               imperdiet eu mauris id, laoreet euismod eros. Proin nec tincidunt leo,
               suscipit sagittis erat. Sed volutpat, nunc a luctus venenatis, ante
               nunc laoreet sem, vel placerat mi nunc non felis. Maecenas convallis
               finibus tristique. Sed tempus varius porttitor. Donec vel libero vitae
-              nibh vehicula interdum a eget dolor. Donec ut facilisis justo.
+              nibh vehicula interdum a eget dolor. Donec ut facilisis justo.</span>
+              <button onclick="readMore1()" id="buttonReadMore1">Leia mais...</button>
             </p>
-          <span class="postedby">Postado por <a href="#">Stênio Lima</a></span>
+          <span class="postedby">Postado por <a href="#">Afrânio Marques</a></span>
         </div><!-- / .posts --> 
       </section><!-- /.post-blog -->
 
@@ -57,17 +61,18 @@
           <time datetime="2022-05-12 08:00-03:00" class="posteddata">Postado em 02 de março de 2022</time>
           
           <img class="post-image" src="imgs/imagem2.png" />
-            <p class="postcontent">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
-              semper diam metus, eget commodo arcu condimentum non. Proin eu metus
-              at dui lacinia rhoncus in sit amet ipsum. Aenean risus mauris,
-              imperdiet eu mauris id, laoreet euismod eros. Proin nec tincidunt leo,
-              suscipit sagittis erat. Sed volutpat, nunc a luctus venenatis, ante
-              nunc laoreet sem, vel placerat mi nunc non felis. Maecenas convallis
-              finibus tristique. Sed tempus varius porttitor. Donec vel libero vitae
-              nibh vehicula interdum a eget dolor. Donec ut facilisis justo.
-            </p>
-          <span class="postedby">Postado por <a href="#">Stênio Lima</a></span>
+          <p class="postcontent">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
+            semper diam metus, eget commodo arcu condimentum non.<span id="dots2">..</span><span id="more2"> Proin eu metus
+            at dui lacinia rhoncus in sit amet ipsum. Aenean risus mauris,
+            imperdiet eu mauris id, laoreet euismod eros. Proin nec tincidunt leo,
+            suscipit sagittis erat. Sed volutpat, nunc a luctus venenatis, ante
+            nunc laoreet sem, vel placerat mi nunc non felis. Maecenas convallis
+            finibus tristique. Sed tempus varius porttitor. Donec vel libero vitae
+            nibh vehicula interdum a eget dolor. Donec ut facilisis justo.</span>
+            <button onclick="readMore2()" id="buttonReadMore2">Leia mais...</button>
+          </p>
+          <span class="postedby">Postado por <a href="#">Afrânio Marques</a></span>
         </div><!-- / .posts --> 
       </section><!-- /.post-blog -->
 
@@ -78,17 +83,18 @@
           <time datetime="2022-05-12 08:00-03:00" class="posteddata">Postado em 02 de março de 2022</time>
           
           <img class="post-image" src="imgs/imagem3.png" />
-            <p class="postcontent">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
-              semper diam metus, eget commodo arcu condimentum non. Proin eu metus
-              at dui lacinia rhoncus in sit amet ipsum. Aenean risus mauris,
-              imperdiet eu mauris id, laoreet euismod eros. Proin nec tincidunt leo,
-              suscipit sagittis erat. Sed volutpat, nunc a luctus venenatis, ante
-              nunc laoreet sem, vel placerat mi nunc non felis. Maecenas convallis
-              finibus tristique. Sed tempus varius porttitor. Donec vel libero vitae
-              nibh vehicula interdum a eget dolor. Donec ut facilisis justo.
-            </p>
-          <span class="postedby">Postado por <a href="#">Stênio Lima</a></span>
+          <p class="postcontent">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
+            semper diam metus, eget commodo arcu condimentum non.<span id="dots3">..</span><span id="more3"> Proin eu metus
+            at dui lacinia rhoncus in sit amet ipsum. Aenean risus mauris,
+            imperdiet eu mauris id, laoreet euismod eros. Proin nec tincidunt leo,
+            suscipit sagittis erat. Sed volutpat, nunc a luctus venenatis, ante
+            nunc laoreet sem, vel placerat mi nunc non felis. Maecenas convallis
+            finibus tristique. Sed tempus varius porttitor. Donec vel libero vitae
+            nibh vehicula interdum a eget dolor. Donec ut facilisis justo.</span>
+            <button onclick="readMore3()" id="buttonReadMore3">Leia mais...</button>
+          </p>
+          <span class="postedby">Postado por <a href="#">Afrânio Marques</a></span>
         </div><!-- / .posts --> 
       </section><!-- /.post-blog -->
 
@@ -99,19 +105,83 @@
           <time datetime="2022-05-12 08:00-03:00" class="posteddata">Postado em 02 de março de 2022</time>
           
           <img class="post-image" src="imgs/imagem4.png" />
-            <p class="postcontent">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
-              semper diam metus, eget commodo arcu condimentum non. Proin eu metus
-              at dui lacinia rhoncus in sit amet ipsum. Aenean risus mauris,
-              imperdiet eu mauris id, laoreet euismod eros. Proin nec tincidunt leo,
-              suscipit sagittis erat. Sed volutpat, nunc a luctus venenatis, ante
-              nunc laoreet sem, vel placerat mi nunc non felis. Maecenas convallis
-              finibus tristique. Sed tempus varius porttitor. Donec vel libero vitae
-              nibh vehicula interdum a eget dolor. Donec ut facilisis justo.
-            </p>
-          <span class="postedby">Postado por <a href="#">Stênio Lima</a></span>
+          <p class="postcontent">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
+            semper diam metus, eget commodo arcu condimentum non.<span id="dots4">..</span><span id="more4"> Proin eu metus
+            at dui lacinia rhoncus in sit amet ipsum. Aenean risus mauris,
+            imperdiet eu mauris id, laoreet euismod eros. Proin nec tincidunt leo,
+            suscipit sagittis erat. Sed volutpat, nunc a luctus venenatis, ante
+            nunc laoreet sem, vel placerat mi nunc non felis. Maecenas convallis
+            finibus tristique. Sed tempus varius porttitor. Donec vel libero vitae
+            nibh vehicula interdum a eget dolor. Donec ut facilisis justo.</span>
+            <button onclick="readMore4()" id="buttonReadMore4">Leia mais...</button>
+          </p>
+          <span class="postedby">Postado por <a href="#">Afrânio Marques</a></span>
         </div><!-- / .posts --> 
       </section><!-- /.post-blog -->
+
+      <script type="text/javascript">
+        function readMore1(){
+          var dots = document.getElementById("dots1")
+          var more = document.getElementById("more1")
+          var buttonReadMore = document.getElementById("buttonReadMore1")
+       
+          if(dots.style.display === "none"){
+            dots.style.display = "inline"
+            buttonReadMore.innerHTML = "Leia Mais..."
+            more.style.display = "none"
+          } else {
+            dots.style.display = "none"
+            buttonReadMore.innerHTML = "Ler menos..."
+            more.style.display = "inline"
+          }
+        }
+        function readMore2(){
+          var dots = document.getElementById("dots2")
+          var more = document.getElementById("more2")
+          var buttonReadMore = document.getElementById("buttonReadMore2")
+       
+          if(dots.style.display === "none"){
+            dots.style.display = "inline"
+            buttonReadMore.innerHTML = "Leia Mais..."
+            more.style.display = "none"
+          } else {
+            dots.style.display = "none"
+            buttonReadMore.innerHTML = "Ler menos..."
+            more.style.display = "inline"
+          }
+        } function readMore3(){
+          var dots = document.getElementById("dots3")
+          var more = document.getElementById("more3")
+          var buttonReadMore = document.getElementById("buttonReadMore3")
+       
+          if(dots.style.display === "none"){
+            dots.style.display = "inline"
+            buttonReadMore.innerHTML = "Leia Mais..."
+            more.style.display = "none"
+          } else {
+            dots.style.display = "none"
+            buttonReadMore.innerHTML = "Ler menos..."
+            more.style.display = "inline"
+          }
+        } function readMore4(){
+          var dots = document.getElementById("dots4")
+          var more = document.getElementById("more4")
+          var buttonReadMore = document.getElementById("buttonReadMore4")
+       
+          if(dots.style.display === "none"){
+            dots.style.display = "inline"
+            buttonReadMore.innerHTML = "Leia Mais..."
+            more.style.display = "none"
+          } else {
+            dots.style.display = "none"
+            buttonReadMore.innerHTML = "Ler menos..."
+            more.style.display = "inline"
+          }
+        }
+
+      </script>
+
     </div>
     </div>
   </div><!-- /.main  -->  
